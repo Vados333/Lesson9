@@ -1,0 +1,60 @@
+@import url('reset.css');
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+body {
+    font-family: "Inter" , sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 7%, rgba(0,212,255,1) 27%, rgba(74,54,56,0) 100%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h1:hover {
+text-decoration: underline;
+font-size: 50px;
+}
+
+.main__container {
+    max-width: 1520px;
+    background-color: rgb(0, 238, 255);
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 5px double rgb(255, 3, 3);
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.designn {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.design {
+    text-align: center;
+    padding: 40px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 7%, rgba(0,212,255,1) 27%, rgba(74,54,56,0) 100%);
+}
+
+.foto1 {
+    border-radius: 20%;
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
